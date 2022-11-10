@@ -1,0 +1,5 @@
+n8n.<domain>.<suffix> {  #replace <domain> with your domain name and <suffix> with the tld (ex: com org net)    
+    reverse_proxy n8n:5678 {
+      flush_interval -1
+    }
+}
